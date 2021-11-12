@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Ubuntu', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#e8cbc0), to(#636fa4));
+  background: linear-gradient(to right, #e8cbc0, #636fa4);
+}
+
+body .container {
+  margin: 44px 82px;
+}
+
+body .container .slogan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .slogan__name {
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 36px;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  color: #2D3192;
+}
+
+body .container .slogan__readmore button {
+  width: 165px;
+  height: 50px;
+  background-color: bisque;
+  border: 4px whitesmoke solid;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+body .container .slogan__readmore button i {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #1f170a;
+}
+
+body .container .slogan__readmore button span {
+  padding-right: 30px;
+}
+
+body .container .slogan__readmore button:hover {
+  border-color: orange;
+  background: -webkit-gradient(linear, left top, right top, from(#d9a7c7), to(#fffcdc));
+  background: linear-gradient(to right, #d9a7c7, #fffcdc);
+}
+
+body .container .slogan__readmore button:hover i {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+body .container .threeboxes__boxes {
+  height: 570px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .threeboxes__boxes__box {
+  width: 350px;
+  height: 400px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 1px solid #363131;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transition-timing-function: liner;
+          transition-timing-function: liner;
+  cursor: pointer;
+}
+
+body .container .threeboxes__boxes__box:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  color: blanchedalmond;
+  background: -webkit-gradient(linear, left top, right top, from(#2c3e50), to(#3498db));
+  background: linear-gradient(to right, #2c3e50, #3498db);
+}
+
+body .container .threeboxes__boxes__box span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 120px;
+}
+
+#tech .bg-wallpaper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+  background-image: url(https://www.simbrella.com/site/assets/files/1049/solutions_bg-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#tech .container .techpart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+#tech .container .techpart__name {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 53px;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgba(200, 206, 223, 0.973);
+  font-weight: bold;
+}
+
+#tech .container .techpart__desc {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 105px;
+  color: rgba(200, 206, 223, 0.973);
+  font-size: 22px;
+  z-index: 2;
+  font-weight: bold;
+  line-height: 3;
+}
+/*# sourceMappingURL=main.css.map */
